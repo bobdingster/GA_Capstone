@@ -1,0 +1,272 @@
+/* Page 1 */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+.page-one-wrapper {
+  position: relative;
+}
+
+.page-one-wrapper .img-background {
+  width: 100%;
+}
+.overlay {
+  background: black;
+  background-blend-mode: multiply;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+}
+.restaurants-wrapper {
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  top: 300px; 
+  width: 650px;
+}
+
+.grey-box {
+  background: #C4C4C4;
+}
+
+.grey-box.top-box {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.grey-box.bottom-box {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.grey-box.bottom-box .words {
+  font-size: 16px;
+}
+
+.name-selector {
+  margin-top: 35px;
+}
+.name-selector .input-text {
+  font-size: 15px;
+  height: 35px;
+  padding: 10px;
+  width: 250px;
+}
+
+.name-selector span.at {
+  margin: 0 10px;
+}
+
+.name-selector .search {
+  background: #979FEA;
+  display: inline-block;
+  margin-left: -5px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.name-selector .search img {
+  padding: 5px;
+  width: 25px;
+}
+
+.name-selector .submit-btn {
+  background: red;
+  border: none;
+  color: white;
+  font-size: 14px;
+  height: 50px;
+  margin-left: -5px;
+  width: 100px;
+}
+
+/* Page 2 */
+.page-two-wrapper {
+  height: 950px;
+  position: relative;
+  width: 100%;
+}
+
+.page-two-wrapper .background-img {
+  height: 100%;
+  width: 100%;
+}
+
+.page-two-wrapper .title {
+  background: #C4C4C4;
+  font-size: 30px;
+  padding: 25px;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  width: 100%;
+}
+
+.page-two-wrapper .recommendation-box {
+  background: #C4C4C4;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  padding: 20px;
+  right: 0;
+  top: 200px;
+  width: 800px;
+}
+
+.page-two-wrapper .recommendation-box .text {
+  font-size: 35px;
+}
+
+.page-two-wrapper .recommendation-box .rest-div {
+  padding: 20px;
+  position: relative;
+}
+
+.page-two-wrapper .recommendation-box .rest-div .description {
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+.page-two-wrapper .recommendation-box .rest-div .description .text {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.page-two-wrapper .recommendation-box .rest-div .restaurant-img {
+  width: 60px;
+}
+
+.page-two-wrapper .recommendation-box .rest-div .stars {
+  font-size: 25px;
+  position: absolute;
+  right: 100px;
+}
+
+.page-two-wrapper .adventurous-wrapper {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 1200px;
+}
+
+.page-two-wrapper .adventurous-wrapper .adventurous-text {
+  font-size: 35px;
+  padding: 30px 0;
+}
+
+.page-two-wrapper .adventurous-wrapper .box-wrapper .grey-box {
+  background: #C4C4C4;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 20px;
+  width: 343px;    
+  vertical-align: top;
+}
+.page-two-wrapper .adventurous-wrapper .box-wrapper .grey-box:last-child {
+  margin-right: 0px;
+}
+.page-two-wrapper .adventurous-wrapper .box-wrapper .grey-box .text {
+  font-size: 28px;
+}
+
+.page-two-wrapper .adventurous-wrapper .box-wrapper .rest-div {
+  margin-top: 20px;
+}
+.page-two-wrapper .adventurous-wrapper .box-wrapper .rest-div img {
+  width: 60px;
+}
+
+.page-two-wrapper .adventurous-wrapper .box-wrapper .rest-div .description {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+}
+
+.page-two-wrapper .adventurous-wrapper .box-wrapper .rest-div .stars {
+  vertical-align: top;
+}
+
+#restaurants-table {
+  margin: auto;
+}
+
+#restaurants-table th {
+  border: 1px solid #ddd;
+  font-size: 20px;
+  padding: 8px;
+  text-align: center;
+}
+
+#restaurants-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#restaurants-table .img img {
+  width: 100px;
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+.ui-menu.ui-widget {
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  list-style: none;
+  padding: 0; 
+  width: 250px !important;
+}
+
+.ui-menu.ui-widget li {
+  font-size: 15px;
+  padding: 12px;
+}
+
+.ui-menu.ui-widget li:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+.error-wrapper {
+  position: relative;
+}
+
+.error-wrapper .img-background {
+  width: 100%;
+}
+
+.error-wrapper .error-box {
+  background: white;
+  font-size: 30px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 350px;
+  width: 500px;
+}
+
+.loader {
+  display: none;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

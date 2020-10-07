@@ -1,0 +1,20 @@
+<!-- {% extends "layout.html" %}
+{% block content %}
+    <h1>THANK YOU FOR YOUR SUBMISSION</h1>
+    <h2> This is a NOY placeholder for the plotted tweets output</h2> -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <h1>THANK YOU FOR YOUR SUBMISSION </h1>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+
+    {% for table in tables %}
+                {{titles[loop.index]}}
+                {{ table|safe }}
+    {% endfor %}
+    </body>
+    </html>
+<!-- {% endblock content %} -->
