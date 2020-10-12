@@ -32,8 +32,6 @@ This dataset consists of 230K+ recipes and 1M+ recipe reviews covering 18 years 
 
 - Data Columns <br>
 
------------------
-
 |Feature|Type|Description|
 |---|---|-----|
 |name|*object*|Recipe name|
@@ -54,8 +52,6 @@ This dataset consists of 230K+ recipes and 1M+ recipe reviews covering 18 years 
 - 1,132,367 users reviews and ratings
 
 - Data Columns <br>
-
---------------
 
 |Feature|Type|Description|
 |---|---|-----|
