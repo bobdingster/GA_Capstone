@@ -30,7 +30,10 @@ This dataset consists of 230K+ recipes and 1M+ recipe reviews covering 18 years 
 
 - 231,637 Recipes
 
-- Data Columns
+- Data Columns <br>
+
+-----------------
+
 |Feature|Type|Description|
 |---|---|-----|
 |name|*object*|Recipe name|
@@ -50,7 +53,10 @@ This dataset consists of 230K+ recipes and 1M+ recipe reviews covering 18 years 
 - `RAW_interactions.csv`
 - 1,132,367 users reviews and ratings
 
-- Data Columns
+- Data Columns <br>
+
+--------------
+
 |Feature|Type|Description|
 |---|---|-----|
 |user_id|*int*|User ID|
