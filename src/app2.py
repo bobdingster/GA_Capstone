@@ -47,6 +47,17 @@ def form_submit2():
     # output.set_index('name', inplace=True)
     return render_template('results.html', tables=[output2.to_html(classes='data')], titles=output2.columns.values) # Show html output on page
 
+@app.route("/submit3")
+def form_submit3():
+    user_input = request.args
+    # search = str(user_input['search2'])
+    response = str(user_input['user_text2']) # get the user input
+    # if search == "ingr2":
+    output3 = user_recommender.recommender(response)
+    # output = output1[['name', 'minutes', 'ingredients', 'match']]
+    # output.set_index('name', inplace=True)
+    return render_template('results.html', tables=[output3.to_html(classes='data')], titles=output3.columns.values) # Show html output on page
+
 
 
 if __name__ == '__main__':

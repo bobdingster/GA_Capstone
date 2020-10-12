@@ -8,11 +8,11 @@
 {% endblock head %}
 {% block content %}
     <body>
-      <h1>Recipe Recommendation by Ingredient Names</h1>
+      <h1>Recipe Recommender by Ingredient Names</h1>
       <form action="/submit">
 
       <!-- <input type="radio" id="ingr" name="search" value="ingr"> -->
-      <label>Ingredient Search (Please type your ingredient, separate by commas.) </label>
+      <label>Ingredient Simple Search (Please type your ingredient, separate by commas.) </label>
 
       <!-- <input type="radio" id="desc" name="search" value="desc">
       <label for="desc">Description Search (Please type a short description)</label><br>
@@ -27,12 +27,8 @@
       <input type="submit" value="Submit">
       </form>
 
-      <h1>Recipe Recommendation by Recipe names </h1>
+      <h1>Collaborative Filtering Recipe Recommender </h1>
       <form action="/submit2">
-
-      <!-- <input type="radio" id="ingr" name="search" value="ingr">
-      <label for="ingr">Ingredient Search (Please type your ingredient, separate by commas.) </label> -->
-
 
       <label>Description Search (Please type short recipe description)</label><br>
       <!-- <label for="input">Please input the keywords for your search, separate by commas.</label> -->
@@ -44,6 +40,25 @@
       <br></br>
       <input type="submit" value="Submit2">
       </form>
+
+
+      <h1>Content_Based Filtering Recipe Recommender </h1>
+      <form action="/submit3">
+
+      <label>Description Search (Please type short list of Ingredient, separate by commas)</label><br>
+      <!-- <label for="input">Please input the keywords for your search, separate by commas.</label> -->
+      <br></br>
+      <textarea id="user_text3" name="user_text3"
+      rows="1" cols="80">
+      </textarea>
+      <br><br>
+      <br></br>
+      <input type="submit" value="Submit3">
+      </form>
+
+
+
+
     </body>
 
 
